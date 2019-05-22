@@ -1,21 +1,1636 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Styleguide</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/components/flex-grid.css">
+    <link rel="stylesheet" href="./assets/css/styleguide.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>DIGITAL STYLE GUIDE</title>
+
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+
+    <!--DIGITAL STYLE GUIDE-->
+
+    <div class="container">
+
+        <div class="row" id="headingrow">
+
+            <div class="col-md-6 col-sm-6">
+                <h1 class="dsgName">DIGITAL STYLE GUIDE</h1>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <ul class="dsgTabs">
+                    <li><a href="#atomen">ATOMS</a></li>
+                    <li><a href="#molecules">MOLECULES</a></li>
+                    <li><a href="#organismen">ORGANISMES</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!--COLORS ATOMS-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="head" id="atomen">ATOMS</h1>
+                <h1 class="titleGroup">COLORS</h1>
+            </div>
+        </div>
+
+        <div class="row" id="colorrow">
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color1">
+                    <div class="colorcodewhite">
+                        #000000; <br>
+                        --c-white;
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color2">
+                    <div class="colorcodeblack">
+                        #E8E5E5; <br>
+                        --c-lightgrey;
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="colorrow">
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color3">
+                    <div class="colorcodeblack">
+                        #CACACA; <br>
+                        --c-grey;
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color4">
+                    <div class="colorcodeblack">
+                        #A1A1A1; <br>
+                        --c-darkgrey;
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="colorrow">
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color5">
+                    <div class="colorcodewhite">
+                        #707070; <br>
+                        --c-darkestgrey;
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="color6">
+                    <div class="colorcodewhite">
+                        #c75263; <br>
+                        --c-bordeax;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="colorrow">
+            <div class="col-md-12 col-sm-12">
+                <div class="color7">
+                    <div class="colorcodeblack">
+                        #FFFFFF; <br>
+                        --c-black;
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--FONTS ATOMS-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    FONTS
+                </h1>
+            </div>
+        </div>
+
+        <div class="subscription">Er werd enkel gebruik gemaakt van de font Open Sans. Dit werd gebruikt in
+            verschillende kleuren en stijlen. Daarnaast waren er ook nog gevarieerde groottes. De font-family had als
+            variabele <em class="code">var(--f-opensans)</em>. De fontstijl is bold of normaal. Dit naargelang de
+            toepassing.</div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de titels van elke thema op de startpagina van zowel de mobile als
+                desktop versie. <br> <em class="code">var(--s-size84)</em></div>
+            <div class="font84">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de titel van het hotel en bijhorende titels doorheen de website. Ze
+                word vooral gebruikt op iedere pagina als hoofdtitel. Dit voor de mobile en desktop versie.<br>
+                <em class="code">var(--s-size76)</em></div>
+            <div class="font76">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor secundaire titels van events. Dit voor de mobile en desktop
+                versie.<br>
+                <em class="code">var(--s-size54)</em></div>
+            <div class="font54">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de grotere tekst op de startpagina van mobile en desktop. Dit vooral
+                naast de afbeeldingen. Dit voor de mobile en desktop versie.<br>
+                <em class="code">var(--s-size46)</em></div>
+            <div class="font46">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor kleinere tekst zoals meer info maar ook als bijhorende tussentitels
+                voor bijna alles. Ook voor de planning bij events. Zowel op mobile als desktop.<br>
+                <em class="code">var(--s-size26)</em></div>
+            <div class="font26">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor buttons zoals zend en boek. Tevens ook voor de titel van
+                nieuwsbrief. Zowel op mobile als desktop.<br>
+                <em class="code">var(--s-size23)</em></div>
+            <div class="font23">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de basic tekst. Zowel op mobile als desktop.<br>
+                <em class="code">var(--s-size17)</em></div>
+            <div class="font17">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de navigatie. Zowel op mobile als desktop.<br>
+                <em class="code">var(--s-size16)</em></div>
+            <div class="font16">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor de smallere buttons. Zowel op mobile als desktop.<br>
+                <em class="code">var(--s-size14)</em></div>
+            <div class="font14">Lorem ipsum</div>
+        </div>
+
+        <div class="fontblock">
+            <div class="subscription">Gebruikt voor basic tekst op de smartphone.<br>
+                <em class="code">var(--s-size13)</em></div>
+            <div class="font13">Lorem ipsum</div>
+        </div>
+
+    </div>
+
+    <!--ICONS ATOMS-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">ICONS</h1>
+                <div class="subscription">De gebruikte icons zijn allemaal afkomstig van Font Awesome.</div>
+            </div>
+        </div>
+
+        <div class="iconblock">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-plane-arrival"></i>
+            <i class="fas fa-plane-departure"></i>
+            <i class="fas fa-male"></i>
+            <i class="fas fa-key"></i>
+            <i class="fas fa-utensils"></i>
+            <i class="fas fa-bed"></i>
+            <i class="fas fa-glass-cheers"></i>
+        </div>
+        <div class="iconblock">
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="row">
+            <iframe width="100%" height="300" src="https://jsfiddle.net/jensderyckere/sev2f93w/4/embedded/html/"
+                allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!--IMAGES ATOMS-->
+
+    <!--FORMS ATOMS-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    FORMS
+                </h1>
+                <h3 class="subtitleGroup">FORM WITH ICON</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <div class="formfield">
+                    <div class="input-icon">
+                        <i class="fas fa-plane-arrival"></i>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/35/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">FORM WITH SORTDOWN</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <div class="formfield">
+                    <div class="input-icon2">
+                        <input type="text">
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/36/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    FORM WITHOUT ICON
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <div class="formfield">
+                    <div class="input-icon2">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/37/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    TEXTAREA
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="formfield">
+                    <div class="input-big">
+                        <textarea rows="5" cols="60" name="description">
+                                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/39/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    FORM WHITE
+                </h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="formfield">
+                    <input type="text" id="mailinput" placeholder="Uw e-mailadres">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/40/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--BUTTONS ATOMS-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    BUTTONS
+                </h1>
+                <h3 class="subtitleGroup">BUTTONS WITH ONE WORD</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="buttonblock">
+                    <div class="bookingbtn" id="btn1">
+                        <a href="">BOEK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/12/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">BUTTONS WITH MULTIPLE WORDS</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="buttonblock">
+                    <div class="cardbtn">
+                        <a href="">ALLE KAMERS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/13/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="head" id="molecules">MOLECULES</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--FULL FORMS MOLECULES-->
+    <!--forms met label-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    FULL FORMS
+                </h1>
+                <h3 class="subtitleGroup">
+                    FORMS WITHOUT PLACEHOLDER
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <div class="formfield">
+                    <p class="textform">PERSONEN</p>
+                    <div class="input-icon">
+                        <i class="fas fa-male"></i>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/35/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--MEDIA BLOCKS MOLECULES-->
+    <!--diensten en events, restaurant, kamers-->
+    <!--afbeeldingen met text (2 versie's)-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">MEDIA BLOCKS</h1>
+                <h3 class="subtitleGroup">TEXT WITH IMAGES</h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <p class="teksttitel">ZOALS NERGENS ANDERS</p>
+                <p class="tekstsubtitel">"Het beste hotel in Lloret de Mar"</p>
+                <p class="tekst">Kamers als een paradijs waarin je kan genieten van s'morgens vroeg tot
+                    s'avonds laat. Niet alleen de kamers maar het rijkelijk zwembad kan ieder
+                    van ons bekoren. Haal die handdoeken maar boven want hier kan je op
+                    je strandstoel de ganse dag met een lekkere cocktail genieten.</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="image" id="imagetext"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/45/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    ROOMS
+                    </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="roomBlock" id="roomBlockOne">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="roomBlockInput">
+                        <h3 class="roomTitle" id="roomTitleOne">
+                            COSY ROOMS
+                        </h3>
+                        <p class="roomText">
+                            Een simpele kamer waar men functioneel en comfortabel kan verblijven in
+                            Hotel de Mar. Deze kamers beschikken over een badkamer met bad of
+                            douche. Dit verschilt naargelang de beschikbaarheid. Je kan tevens ook
+                            kiezen voor 2 single bedden of één double bed. Gratis WiFi, airconditioning
+                            en kluisje. Kortom alles wat je nodig hebt!
+                        </p>
+                        <div class="roomIcons">
+                            <div class="iconBlock">
+                                <i class="fas fa-male" id="iconGrey"></i>
+                                <p class="iconText" id="textBordeax">Max. 2 personen</p>
+                            </div>
+                            <div class="iconBlock">
+                                <i class="fas fa-bed" id="iconGrey"></i>
+                                <p class="iconText" id="textBordeax">23m</p>
+                            </div>
+                            <div class="iconBlock">
+                                <i class="fas fa-info-circle" id="iconGrey"></i>
+                                <p class="iconText" id="textBordeax">Single of double</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-6">
+
+                    <div class="imageRoom" id="imageRoomOne">
+
+                        <div class="priceBlock">
+                            <div class="priceBlockInput">
+                                <p class="pricebigBordeax">48 EURO</p>
+                                <p class="pricesmallGrey">per nacht</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="roomBlock" id="roomBlockTwo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-6">
+                    <div class="roomBlockInput">
+                        <h3 class="roomTitle" id="roomTitleTwo">
+                            COSY ROOMS
+                        </h3>
+                        <p class="roomText" id="textWhite">
+                            Een simpele kamer waar men functioneel en comfortabel kan verblijven in
+                            Hotel de Mar. Deze kamers beschikken over een badkamer met bad of
+                            douche. Dit verschilt naargelang de beschikbaarheid. Je kan tevens ook
+                            kiezen voor 2 single bedden of één double bed. Gratis WiFi, airconditioning
+                            en kluisje. Kortom alles wat je nodig hebt!
+                        </p>
+                        <div class="roomIcons">
+                            <div class="iconBlock">
+                                <i class="fas fa-male" id="iconGrey"></i>
+                                <p class="iconText" id="textGrey">Max. 2 personen</p>
+                            </div>
+                            <div class="iconBlock">
+                                <i class="fas fa-bed" id="iconGrey"></i>
+                                <p class="iconText" id="textGrey">23m</p>
+                            </div>
+                            <div class="iconBlock">
+                                <i class="fas fa-info-circle" id="iconGrey"></i>
+                                <p class="iconText" id="textGrey">Single of double</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-6">
+
+                    <div class="imageRoom" id="imageRoomOne">
+
+                        <div class="priceBlock">
+                            <div class="priceBlockInput">
+                                <p class="pricebigBordeax">48 EURO</p>
+                                <p class="pricesmallGrey">per nacht</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/61/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3 class="subtitleGroup">
+                RESTAURANT
+            </h3>
+        </div>
+
+    </div>
+
+    <div class="restaurantBlock">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="titleRestaurant">
+                        <h3 id="titleRestaurantOne">
+                            BUFFETRESTAURANT
+                        </h3>
+
+                    </div>
+                    <div class="textRestaurant">
+                        <p id="textRestaurantOne">
+                            Rustig genieten van je reis maar tevens ook goed eten? Dat kan! Bij ons heb je de
+                            mogelijkheid om goedgevuld de dag te beginnen of te eindigen!
+                            Wij voorzien elke dag een uitgebreid buffet voor onze gasten. Voor onze jongsten maken we
+                            dan ook gebruik van een gevarieerde kids-corner.
+                            Voor de uitgaande jeugd hebben wij dan ook onze openingsuren aangepast. Vanaf nu kan je
+                            ontbijten tot 11u en dineren tot 22u.
+                            Tevens houden wij ook rekening met mensen die allergische zijn voor bepaalde voedingsstoffen
+                            of mensen die een aangepast dieet nodig hebben.
+                            Neem contact op met onze balie en wij voorzien een aangepaste maaltijd voor u!
+
+                        </p>
+                        <p id="textRestaurantTwo">
+                            Daarnaast kunnen onze vegetariërs ook uitgebreid eten. Naast de boordevolle groenten
+                            verwennen wij onze gasten ook met vegetarische gerechten.
+                            Eens per week organiseren wij dan ook een veggiedag. Onwaarschijnlijk lekker en ook voor de
+                            vleeseter iets nieuws.
+                        </p>
+                        <p id="textRestaurantThree">
+                            Of u nu volpension, halfpension of bed and breakfast hebt verkozen. Voor ons maakt het geen
+                            verschil.
+                            Wij maken voor u de allerbeste gerechten in Lloret de Mar.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="imageRest">
+                <div class="col-md-4 col-6">
+                    <div class="imageOneRest"></div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="imageTwoRest"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imageThreeRest"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurantBlock" id="restaurantBlockB">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="titleRestaurant">
+                        <h3 id="titleRestaurantTwo">
+                            BUFFETRESTAURANT
+                        </h3>
+
+                    </div>
+                    <div class="textRestaurantB">
+                        <p id="textRestaurantOne">
+                            Rustig genieten van je reis maar tevens ook goed eten? Dat kan! Bij ons heb je de
+                            mogelijkheid om goedgevuld de dag te beginnen of te eindigen!
+                            Wij voorzien elke dag een uitgebreid buffet voor onze gasten. Voor onze jongsten maken we
+                            dan ook gebruik van een gevarieerde kids-corner.
+                            Voor de uitgaande jeugd hebben wij dan ook onze openingsuren aangepast. Vanaf nu kan je
+                            ontbijten tot 11u en dineren tot 22u.
+                            Tevens houden wij ook rekening met mensen die allergische zijn voor bepaalde voedingsstoffen
+                            of mensen die een aangepast dieet nodig hebben.
+                            Neem contact op met onze balie en wij voorzien een aangepaste maaltijd voor u!
+
+                        </p>
+                        <p id="textRestaurantTwo">
+                            Daarnaast kunnen onze vegetariërs ook uitgebreid eten. Naast de boordevolle groenten
+                            verwennen wij onze gasten ook met vegetarische gerechten.
+                            Eens per week organiseren wij dan ook een veggiedag. Onwaarschijnlijk lekker en ook voor de
+                            vleeseter iets nieuws.
+                        </p>
+                        <p id="textRestaurantThree">
+                            Of u nu volpension, halfpension of bed and breakfast hebt verkozen. Voor ons maakt het geen
+                            verschil.
+                            Wij maken voor u de allerbeste gerechten in Lloret de Mar.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="imageRest">
+                <div class="col-md-4 col-6">
+                    <div class="imageOneRest"></div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="imageTwoRest"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imageThreeRest"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/60/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    DIENSTEN EN EVENTS
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="textimgBlock" id="blockGrey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-6">
+                    <div class="textimgInput">
+                        <h3 class="textimgTitle" id="titleBordeax">
+                            BEACH OLYMPICS
+                        </h3>
+
+                        <p class="textimgText">
+                            Woohoo! Elke vrijdagochtend vinden onze Olympische Spelen plaats. Haal die mooiste
+                            zwembroek of sportbroek maar al uit want het zou wel eens zeer intensief kunnen verlopen.
+                            Sta klaar voor uw land en trotseer de zee en het zand.
+                        </p>
+
+                        <a href="" class="textimgLink" id="linkBordeax">KOM MEER TE WETEN OF SCHRIJF JE IN!</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="textimgImage" id="imageOne">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="textimgBlock" id="blockBordeax">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-6">
+                    <div class="textimgInput">
+                        <h3 class="textimgTitle" id="titleGrey">
+                            BEACH OLYMPICS
+                        </h3>
+
+                        <p class="textimgText" id="textimgTextWhite">
+                            Woohoo! Elke vrijdagochtend vinden onze Olympische Spelen plaats. Haal die mooiste
+                            zwembroek of sportbroek maar al uit want het zou wel eens zeer intensief kunnen verlopen.
+                            Sta klaar voor uw land en trotseer de zee en het zand.
+                        </p>
+
+                        <a href="" class="textimgLink" id="linkGrey">KOM MEER TE WETEN OF SCHRIJF JE IN!</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="textimgImage" id="imageOne">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/59/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--CARDS MOLECULES-->
+    <!--kaarten van op de homepage (klanten, uw verblijf)-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    CARDS
+                </h1>
+                <h3 class="subtitleGroup">
+                    UW VERBLIJF
+                </h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+
+                <div class="card" id="card1">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="cardinput">
+                        <p class="cardtitle">ONMIDDELIJKE TOEGANG</p>
+                        <p class="cardtext">Vermoeid na een lange dag reizen? Geen probleem! Uw kamer
+                            staat direct ter beschikking. Of dit nu om 6 uur s'ochtends of
+                            22 uur s'nachts is. Wegens onze strikte regeling zorgen wij ervoor
+                            dat elke klant onmiddellijk toegang heeft tot de kamer.</p>
+                        <div class="cardbtn">
+                            <a href="">ANDERE DIENSTEN</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/46/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">KLANTEN</h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard1">
+                    <div class="pictureklant" id="klant1">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Een prachtig hotel waar
+                            iedereen welkom is. Het is
+                            speciaal voor jonge mensen
+                            maar er is toch nog
+                            voldoende rust!"
+                        </p>
+                        <p class="naamklant">Claudia, 36</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/47/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--NAVIGATION MOLECULES-->
+    <!--navigation tabs footer en header-->
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    NAVIGATION
+                </h1>
+
+                <h3 class="subtitleGroup">
+                    HEADER
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-7">
+                <div class="headingbtn">
+                    <li><a href="">HOTEL</a></li>
+                    <li><a href="">KAMERS</a></li>
+                    <li><a href="">RESTAURANT</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="">DIENSTEN</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </div>
+            </div>
+
+            <div class="col-5">
+                <div class="headingbtn2">
+                    <li><a class="boekbtn">BOEK EEN KAMER</a></li>
+                    <li><a class="lang">TAAL</a></li>
+                    <li><a class="langbtn">NL / ENG / FR</a></li>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/48/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    FOOTER
+                </h3>
+            </div>
+        </div>
+
+        <div class="row" id="bottomfooter">
+            <div class="col-md-12">
+                <a href="">Algemene voorwaarden</a>
+                <a href="">Cookiebeleid</a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/50/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!--PAGE HEADERS MOLECULES-->
+    <!--page header verdere pagina's-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    PAGE HEADERS
+                </h1>
+                <h3 class="subtitleGroup">
+                    EVERY PAGE EXCEPT HOMEPAGE
+                </h3>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pageheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-12">
+                    <div class="headerblock">
+                        <div class="headerinput">
+                            <h1 class="headertitle">KAMERS</h1>
+                            <h3 class="headersubtitle">STARTEN VANAF 48 EURO</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/62/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--FOOTER ORGANISM-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="head" id="organismen">
+                    ORGANISMEN
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    FOOTER
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row" id="nieuwsbriefcol">
+                <div class="col-md-4 col-sm-12">
+                    <h1 class="titlefooter">HOTEL DE MAR</h1>
+                    <p class="adres">Carrer st. José 20 <br>
+                        17310 Lloret de Mar <br>
+                        info@hoteldemar.com <br>
+                        +34 95 96 97 98</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="map">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="388" height="184" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=lloret%20de%20mar&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://www.emojilib.com"></a></div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 184px;
+                                    width: 100%;
+                                    border: 2px solid var(--c-darkgrey);
+                                    margin-top: 17px;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 184px;
+                                    width: 100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" id="nieuwsbriefform">
+                    <p class="nieuwsbrieftitel">Nieuwsbrief</p>
+                    <input type="text" id="mailinput" placeholder="Uw e-mailadres">
+                    <div class="privacy">
+                        <p class="privacytext">Accepteer de privacy policy</p>
+                        <input type="checkbox" id="privacycheck">
+                    </div>
+                    <div class="privacybtn">
+                        <a href="">ZEND</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="bottomfooter">
+            <div class="col-md-12">
+                <a href="">Algemene voorwaarden</a>
+                <a href="">Cookiebeleid</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/42/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!--HEADER ORGANISM-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="titleGroup">
+                    HEADER
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="linesmobile">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-7">
+                    <div class="headingbtn">
+                        <li><a href="">HOTEL</a></li>
+                        <li><a href="">KAMERS</a></li>
+                        <li><a href="">RESTAURANT</a></li>
+                        <li><a href="">EVENTS</a></li>
+                        <li><a href="">DIENSTEN</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="headingbtn2">
+                        <li><a class="boekbtn">BOEK EEN KAMER</a></li>
+                        <li><a class="lang">TAAL</a></li>
+                        <li><a class="langbtn">NL / ENG / FR</a></li>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/43/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FORMS HOMEPAGE ORGANISM-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    FORMS ORGANISM
+                </h1>
+
+                <h3 class="subtitleGroup">
+                    FORM BOOKING
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <div class="bookingblock">
+
+                    <div class="bookinginput">
+                        <p class="bookingtitle">BOEK UW KAMER</p>
+
+                        <div class="form">
+                            <div class="formfield">
+                                <p class="textform">AANKOMST</p>
+                                <div class="input-icon">
+                                    <i class="fas fa-plane-arrival"></i>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="formfield">
+                                <p class="textform">VERTREK</p>
+                                <div class="input-icon">
+                                    <i class="fas fa-plane-departure"></i>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="formfield">
+                                <p class="textform">PERSONEN</p>
+                                <div class="input-icon-short">
+                                    <i class="fas fa-male"></i>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bookingbtn">
+                            <a href="">BOEK</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/52/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">
+                    FORM NIEUWSBRIEF
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="nieuwsbriefform">
+                <p class="nieuwsbrieftitel">Nieuwsbrief</p>
+                <input type="text" id="mailinput" placeholder="Uw e-mailadres">
+                <div class="privacy">
+                    <p class="privacytext">Accepteer de privacy policy</p>
+                    <input type="checkbox" id="privacycheck">
+                </div>
+                <div class="privacybtn">
+                    <a href="">ZEND</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/54/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!--MEDIA LIST ORGANISM-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">MEDIA LIST ORGANISM</h1>
+                <h3 class="subtitleGroup">UW VERBLIJF CARDS</h3>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <div class="card" id="card1">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="cardinput">
+                        <p class="cardtitle">ONMIDDELIJKE TOEGANG</p>
+                        <p class="cardtext">Vermoeid na een lange dag reizen? Geen probleem! Uw kamer
+                            staat direct ter beschikking. Of dit nu om 6 uur s'ochtends of
+                            22 uur s'nachts is. Wegens onze strikte regeling zorgen wij ervoor
+                            dat elke klant onmiddellijk toegang heeft tot de kamer.</p>
+                        <div class="cardbtn">
+                            <a href="">ANDERE DIENSTEN</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="card" id="card2">
+                    <div class="icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="cardinput">
+                        <p class="cardtitle">ELKE DAG IETS ANDERS</p>
+                        <p class="cardtext">Eet wat je wil en wanneer je wil! Via onze verschillende restaurants
+                            is er de mogelijkheid om op elk moment van de dag aan tafel
+                            te kruipen. Tevens heeft onze chef heel wat specialisaties
+                            en extra’s. Ook kunnen er heel wat speciale services aangeboden worden!</p>
+                        <div class="cardbtn">
+                            <a href="">ALLE RESTAURANTS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="card" id="card1">
+                    <div class="icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <div class="cardinput">
+                        <p class="cardtitle">COMFORT, LUXE EN RUST</p>
+                        <p class="cardtext">Een zacht bedje of liever toch wat harder? Dat vorm toch geen
+                            probleem! Door onze uitgebreide ervaring en dienstverlening
+                            kunnen we u heel wat voordelen brengen en luxe. Dit word
+                            dan ook nog eens ondersteund door comfort.</p>
+                        <div class="cardbtn">
+                            <a href="">ALLE KAMERS</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card" id="card2">
+                    <div class="icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <div class="cardinput">
+                        <p class="cardtitle">GROOT FEEST</p>
+                        <p class="cardtext">Natuurlijk kom je niet naar Lloret om s’avonds op je kamer te
+                            blijven. Neen, je komt voor dat mooi nachtleven. Geniet ervan
+                            maar geniet ook van wat wij te bieden hebben. In Hotel de Mar
+                            is er ook heel wat te doen. Genieten maar!</p>
+                        <div class="cardbtn">
+                            <a href="">ALLE EVENTS</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/55/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="subtitleGroup">KLANTEN CARDS</h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard1">
+                    <div class="pictureklant" id="klant1">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Een prachtig hotel waar
+                            iedereen welkom is. Het is
+                            speciaal voor jonge mensen
+                            maar er is toch nog
+                            voldoende rust!"
+                        </p>
+                        <p class="naamklant">Claudia, 36</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard2">
+                    <div class="pictureklant" id="klant2">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Het personaal was zeer
+                            vriendelijk en gastvrij!
+                            En wat dan te zeggen van
+                            het eten? <br>
+                            5 dikke sterren!"
+                        </p>
+                        <p class="naamklant">Sylvie, 24</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard3">
+                    <div class="pictureklant" id="klant3">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Ik kwam hier met mijn
+                            vriendinnen en kan zeggen
+                            dat ik volgend jaar terug
+                            kom! Wat een prachtige
+                            sfeer."
+                        </p>
+                        <p class="naamklant">Anouk, 21</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" id="rij2">
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard4">
+                    <div class="pictureklant" id="klant4">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Wij zijn heel erg tevreden
+                            over dit prachtig hotel.
+                            Het zwembad was gewoon
+                            zalig. Tot volgend jaar!"
+                        </p>
+                        <p class="naamklant">Emma, 21 <br>
+                            Hilde, 22</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard5">
+                    <div class="pictureklant" id="klant5">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Na een lange reis was ik
+                            verwonderd dat ik direct
+                            mijn kamer kon. Het was
+                            pas 5u in de ochtend.
+                            Verbazend!"
+                        </p>
+                        <p class="naamklant">Bert, 18</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="klantencard" id="klantencard6">
+                    <div class="pictureklant" id="klant6">
+
+                    </div>
+                    <div class="inputklant">
+                        <p class="tekstklant">"Een gouden tip voor alle
+                            jongeren. Sla dit hotel niet
+                            over! Een groot zwembad,
+                            veel drank en vriendelijk personeel!"
+                        </p>
+                        <p class="naamklant">Tom, 29</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/56/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SECTIONS ORGANISM-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    SECTIONS
+                </h1>
+                <h3 class="subtitleGroup">
+                    IMAGES WITH TEXT
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <p class="teksttitel">ZOALS NERGENS ANDERS</p>
+                <p class="tekstsubtitel">"Het beste hotel in Lloret de Mar"</p>
+                <p class="tekst">Kamers als een paradijs waarin je kan genieten van s'morgens vroeg tot
+                    s'avonds laat. Niet alleen de kamers maar het rijkelijk zwembad kan ieder
+                    van ons bekoren. Haal die handdoeken maar boven want hier kan je op
+                    je strandstoel de ganse dag met een lekkere cocktail genieten.</p>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="image" id="imagetext"></div>
+            </div>
+
+        </div>
+
+        <div class="row flex-column-reverse flex-md-row">
+
+            <div class="col-md-6 col-sm-12">
+                <div class="image" id="imagetext2"></div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <p class="teksttitel" id="teksttitelrechts">PARTY ALL THE WAY</p>
+                <p class="tekstsubtitel" id="tekstsubtitelrechts">"Dichte nabijheid van werelddiscotheca's"</p>
+                <p class="tekst" id="tekstrechts">Disco Tropics, Shooters, Moef Gaga en nog zoveel meer! Wereldberoemde
+                    sterren zoals Paris Hilton, Tyga, Chris Brown en Alan Walker maakten hier
+                    al veel bravoure. Ook onze Nederlandse artiesten zijn hier vaak te vinden
+                    zoals Lil Kleine, Afrojack en Frenna.</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <p class="teksttitel">GOOD STAY, GOOD FOOD</p>
+                <p class="tekstsubtitel">"Onaantastbaar niveau in LLoret de Mar"</p>
+                <p class="tekst">Exclusive dineren of liever een stevige maaltijd? Of bekom je liever nog
+                    even van dat zwaar nachtje uit? Geen probleem! Onze chefs staan klaar
+                    voor ieders maaltijd. Of dit nu een kreeftje is of een gewoon lekker eitje!
+                    Bij een hongertje ben je dan ook welkom in onze gloednieuwe snackbar. </p>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="image" id="imagetext3"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <iframe width="100%" height="300"
+                    src="https://jsfiddle.net/jensderyckere/sev2f93w/58/embedded/html,css/"
+                    allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <!--GRID-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1 class="titleGroup">
+                    GRID
+                </h1>
+
+                <h3 class="subtitleGroup">
+                    MADE BY BOOTSTRAP (4.3.1)
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
 </body>
+
 </html>
