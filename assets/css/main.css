@@ -14,7 +14,7 @@ div.header {
     width: 100%;
     background-color: var(--c-lightgrey);
     box-shadow: 0px 12px 6px var(--c-grey);
-    position: absolute;
+    position: relative;
 }
 
 div.linesmobile {
@@ -60,7 +60,7 @@ div.homepage {
     font-size: var(--s-size76);
     font-weight: 700;
     text-shadow: 0px 3px 6px var(--c-grey);
-    margin-top: 160px;
+    margin-top: 100px;
 }
 
 .exclusive {
