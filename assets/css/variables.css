@@ -1,26 +1,35 @@
+/* Variables */
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+  --c-bordeax: #c75263;
+  --c-white: #FFFFFF;
+  --c-lightgrey: #E8E5E5;
+  --c-grey: #CACACA;
+  --c-darkgrey: #A1A1A1;
+  --c-darkestgrey: #707070;
+  --c-black: #000000;
 
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  --f-opensans: 'Open Sans';
+
+  --s-size13: 13px;
+  --s-size14: 14px;
+  --s-size16: 16px;
+  --s-size17: 17px;
+  --s-size23: 23px;
+  --s-size42: 42px;
+  --s-size46: 46px;
+  --s-size76: 76px;
+  --s-size84: 84px;
+  --s-size54: 54px;
+  --s-size26: 26px;
 }
 
 

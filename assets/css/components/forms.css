@@ -1,0 +1,68 @@
+.form {
+    display: flex;
+}
+
+div.formfield {
+    margin-right: 45px;
+}
+
+.textform {
+    color: var(--c-darkgrey);
+    font-family: var(--f-opensans);
+    font-size: var(--s-size17);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.input-icon {
+    width: 120%;
+    height: 37px;
+    background-color: var(--c-grey);
+    border: 2px var(--c-darkgrey) solid;
+    margin-right: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon i {
+    margin-left: 12px;
+    color: var(--c-darkgrey);
+    margin-right: 12px;
+}
+
+.input-icon-short {
+    width: 100%;
+    height: 37px;
+    background-color: var(--c-grey);
+    border: 2px var(--c-darkgrey) solid;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon-short i {
+    margin-left: 12px;
+    color: var(--c-darkgrey);
+    margin-right: 12px;
+}
+
+input {
+    background-color: var(--c-grey);
+    width: 50px;
+    border: 0px solid;
+}
+
+input#mailinput {
+    width: 100%;
+    height: 41px;
+    background-color: var(--c-white);
+    border: 2px solid var(--c-darkgrey);
+}
+
+#mailinput::-webkit-input-placeholder {
+    color: var(--c-darkgrey);
+    font-family: var(--f-opensans);
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 4px;
+
+}

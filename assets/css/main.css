@@ -7,3 +7,650 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+/* Start header */
+
+div.header {
+    height: 79px;
+    width: 100%;
+    background-color: var(--c-lightgrey);
+    box-shadow: 0px 12px 6px var(--c-grey);
+    position: absolute;
+}
+
+div.linesmobile {
+    position: relative;
+    left: 45%;
+    top: 50px;
+    display: none;
+}
+
+div.linesmobile div {
+    width: 76px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 5px;
+    background-color: var(--c-bordeax);
+}
+
+@media (max-width: 768px) {
+    div.header {
+        display: none;
+    }
+
+    div.linesmobile {
+        display: inline-block;
+    }
+}
+
+/* Homepage */
+
+div.homepage {
+    background-image: url(./images/guzman-barquin-595897-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: 160%;
+    background-position: 10% 68%;
+}
+
+/* Hotel title */
+
+.hoteltitle {
+    color: var(--c-bordeax);
+    font-family: var(--f-opensans);
+    font-size: var(--s-size76);
+    font-weight: 700;
+    text-shadow: 0px 3px 6px var(--c-grey);
+    margin-top: 160px;
+}
+
+.exclusive {
+    font-family: var(--f-opensans);
+    font-size: var(--s-size54);
+    color: var(--c-darkgrey);
+    font-weight: 700;
+    text-shadow: 0px 3px 6px var(--c-grey);
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars i {
+    color: var(--c-bordeax);
+    font-size: 12pt;
+    text-shadow: 0px 3px 6px var(--c-grey);
+}
+
+@media (max-width: 768px) {
+    .hoteltitle {
+        margin-top: 80px;
+    }
+}
+
+/* Booking card */
+
+.bookingblock {
+    background-color: var(--c-white);
+    height: 220px;
+    width: 100%;
+    box-shadow: 0px 3px 6px var(--c-grey);
+}
+
+.bookinginput {
+    margin: 25px;
+}
+
+.bookingtitle {
+    color: var(--c-darkgrey);
+    font-family: var(--f-opensans);
+    font-size: var(--s-size26);
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-top: 25px;
+}
+
+h1.title1 {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--c-bordeax);
+    font-family: var(--f-opensans);
+    font-size: var(--s-size84);
+    font-weight: bold;
+}
+
+/* Maak kennis */
+
+h1.title1 {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--c-bordeax);
+    font-family: var(--f-opensans);
+    font-size: var(--s-size84);
+    font-weight: bold;
+}
+
+#line1 {
+    background-color: var(--c-bordeax);
+    height: 6px;
+    width: 586px;
+}
+
+.line1 {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+p.teksttitel {
+    text-align: right;
+    font-family: var(--f-opensans);
+    font-size: var(--s-size42);
+    font-weight: bold;
+    color: var(--c-bordeax);
+}
+
+p.tekstsubtitel {
+    text-align: right;
+    font-family: var(--f-opensans);
+    color: var(--c-darkgrey);
+    font-weight: bold;
+    font-size: var(--s-size26);
+}
+
+p.tekst {
+    text-align: right;
+    font-size: var(--s-size17);
+    color: var(--c-black);
+    font-family: var(--f-opensans);
+    margin-bottom: 30px;
+}
+
+div.image {
+    margin-top: 10px;
+}
+
+#imagetext {
+    background-image: url(./images/jeremy-kierez-1188598-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -120px;
+    height: 193px;
+}
+
+#imagetext2 {
+    background-image: url(./images/keith-luke-679667-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -230px;
+    height: 193px;
+}
+
+#imagetext3 {
+    background-image: url(./images/chuttersnap-1242453-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+    height: 193px;
+}
+
+#teksttitelrechts {
+    text-align: left;
+}
+
+#tekstsubtitelrechts {
+    text-align: left;
+}
+
+#tekstrechts {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    p.teksttitel {
+        text-align: center;
+    }
+
+    p.tekstsubtitel {
+        text-align: center;
+    }
+
+    p.tekst {
+        text-align: center;
+    }
+
+    #teksttitelrechts {
+        text-align: center;
+    }
+
+    #tekstsubtitelrechts {
+        text-align: center;
+    }
+
+    #tekstrechts {
+        text-align: center;
+    }
+
+    div.image {
+        margin-bottom: 30px;
+    }
+
+    #imagetext2 {
+        background-position-y: 0px;
+
+    }
+
+    #imagetext3 {
+        background-position-y: 0px;
+
+    }
+}
+
+/* Special offers */
+
+#line2 {
+    background-color: var(--c-bordeax);
+    height: 6px;
+    width: 662px;
+    margin-bottom: 30px;
+}
+
+div.background {
+    background-image: url('./images/clem-onojeghuo-112055-unsplash.jpg');
+    width: 100%;
+    height: 432px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+div.specialoffercard {
+    margin-top: 50px;
+    width: 100%;
+    height: 291px;
+    background-color: var(--c-white);
+    box-shadow: 0px 3px 6px var(--c-grey);
+}
+
+p.specialoffertitle {
+    text-align: center;
+    color: var(--c-bordeax);
+    font-size: var(--s-size42);
+    font-family: var(--f-opensans);
+    font-weight: bold;
+    padding-top: 37px;
+}
+
+p.specialoffertext {
+    text-align: center;
+    font-size: var(--s-size17);
+    font-family: var(--f-opensans);
+    color: var(--c-black);
+}
+
+@media (max-width: 768px) {
+    div.background {
+        background-size: 360%;
+    }
+
+    div.specialoffercard {
+        height: 320px;
+    }
+}
+
+/* Uw verblijf */
+
+#line3 {
+    background-color: var(--c-bordeax);
+    height: 6px;
+    width: 529px;
+}
+
+div.card {
+    background-color: var(--c-grey);
+    width: 100%;
+    height: 396px;
+    border-radius: 17px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+div.card i {
+    color: var(--c-white);
+    font-size: 66pt;
+}
+
+div.icon {
+    width: 159px;
+    height: 159px;
+    background-color: var(--c-bordeax);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 37%;
+    top: -15%;
+}
+
+div.cardinput {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+p.cardtitle {
+    font-size: var(--s-size26);
+    color: var(--c-bordeax);
+    font-weight: bold;
+    font-family: var(--f-opensans);
+    margin-top: -40px;
+}
+
+p.cardtext {
+    font-size: var(--s-size17);
+    color: var(--c-black);
+    font-family: var(--f-opensans);
+    margin-top: 10px;
+}
+
+/* In de buurt */
+
+div.background2 {
+    margin-top: 30px;
+    background-image: url('./images/a-l-135921-unsplash.jpg');
+    width: 100%;
+    height: 432px;
+    background-size: cover;
+    background-position-y: -200px;
+    margin-bottom: -70px;
+}
+
+div.buurtcard {
+    margin-top: 80px;
+    width: 100%;
+    height: 291px;
+    background-color: var(--c-white);
+    box-shadow: 0px 3px 6px var(--c-grey);
+    justify-content: center;
+    display: flex;
+}
+
+div.circle {
+    width: 189px;
+    height: 189px;
+    border-radius: 100%;
+    box-shadow: 0px 3px 6px var(--c-darkgrey);
+    margin-top: 35px;
+}
+
+div.circle#circle1 {
+    background-image: url('./images/alexander-popov-566913-unsplash.jpg');
+    background-size: cover;
+}
+
+div.circle#circle2 {
+    background-image: url('./images/lightscape-748406-unsplash.jpg');
+    background-size: cover;
+
+}
+
+div.circle#circle3 {
+    background-image: url('./images/clem-onojeghuo-112055-unsplash.jpg');
+    background-size: cover;
+}
+
+div.buurtcircle:nth-of-type(1) {
+    margin-right: 31px;
+}
+
+div.buurtcircle:nth-of-type(2) {
+    margin-right: 31px;
+    margin-left: 31px;
+}
+
+div.buurtcircle:nth-of-type(3) {
+    margin-left: 31px;
+}
+
+div.buurtcircle p {
+    font-size: var(--s-size17);
+    font-weight: bold;
+    font-family: var(--f-opensans);
+    color: var(--c-bordeax);
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+
+    div.buurtcard {
+        display: block;
+        height: 860px;
+        padding-top: 30px;
+    }
+
+    div.circle {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+
+    }
+
+    div.buurtcircle:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    div.buurtcircle:nth-of-type(2) {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    div.buurtcircle:nth-of-type(3) {
+        margin-left: 0px;
+    }
+
+    div.background2 {
+        height: 1050px;
+    }
+
+
+}
+
+/* Klanten */
+
+#line4 {
+    background-color: var(--c-bordeax);
+    height: 6px;
+    width: 646px;
+}
+
+div.klantencard {
+    height: 505px;
+    border-radius: 13px;
+}
+
+#klantencard1 {
+    background-color: var(--c-bordeax);
+}
+
+#klantencard2 {
+    background-color: var(--c-darkgrey);
+}
+
+
+#klantencard3 {
+    background-color: var(--c-bordeax);
+}
+
+#klantencard4 {
+    background-color: var(--c-darkgrey);
+}
+
+#klantencard5 {
+    background-color: var(--c-bordeax);
+}
+
+#klantencard6 {
+    background-color: var(--c-darkgrey);
+}
+
+#klanten {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#rij2 {
+    margin-top: 100px;
+}
+
+div.pictureklant {
+    width: 273px;
+    height: 273px;
+    border-radius: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -70px;
+    box-shadow: 0px 3px 6px var(--c-black);
+}
+
+div.pictureklant#klant1 {
+    background-image: url(./images/renee-fisher-1420853-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+div.pictureklant#klant2 {
+    background-image: url(./images/adria-garcia-sarceda-1161835-unsplash.jpg);
+    background-size: cover;
+}
+
+div.pictureklant#klant3 {
+    background-image: url(./images/vince-fleming-585478-unsplash.jpg);
+    background-size: cover;
+    background-size: 350%;
+    background-position-x: -370px;
+    background-position-y: -180px;
+}
+
+div.inputklant {
+    margin: 0px 36px 0px 36px;
+
+}
+
+div.inputklant p:nth-of-type(1) {
+    text-align: center;
+    font-size: var(--s-size23);
+    font-family: var(--f-opensans);
+    font-weight: bold;
+    color: var(--c-white);
+    margin-top: -40px;
+}
+
+div.inputklant p:nth-of-type(2) {
+    text-align: center;
+    font-size: var(--s-size26);
+    font-family: var(--f-opensans);
+    font-weight: bold;
+    color: var(--c-grey);
+    position: relative;
+    top: 40px;
+}
+
+
+
+#klantencard2 div.klantencard {
+    height: 505px;
+    border-radius: 13px;
+}
+
+
+
+div.pictureklant#klant4 {
+    background-image: url(./images/lucas-lenzi-559739-unsplash.jpg);
+    background-size: cover;
+}
+
+div.pictureklant#klant5 {
+    background-image: url(./images/oliver-ragfelt-488196-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -120px;
+}
+
+div.pictureklant#klant6 {
+    background-image: url(./images/aminoz-bi-741288-unsplash.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    #rij2 {
+        margin-top: 0px;
+    }
+
+    div.klantencard {
+        margin-bottom: 120px;
+    }
+}
+
+
+/* Footer */
+
+div.footer {
+    width: 100%;
+    height: 220px;
+    background-color: var(--c-grey);
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+
+.titlefooter {
+    font-size: 46px;
+    font-weight: bold;
+    font-family: var(--f-opensans);
+    color: var(--c-bordeax);
+    margin-top: 10px;
+}
+
+.adres {
+    font-family: var(--f-opensans);
+    color: var(--c-black);
+    line-height: 29px;
+}
+
+p.nieuwsbrieftitel {
+    margin-top: 1Opx;
+    font-family: var(--f-opensans);
+    font-size: var(--s-size23);
+    color: var(--c-white);
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+div.privacy {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.privacytext {
+    font-family: var(--f-opensans);
+    font-size: var(--s-size17);
+    color: var(--c-black);
+}
+
+@media (max-width: 768px) {
+    #nieuwsbriefform {
+        display: none;
+    }
+
+    div.map {
+        display: none;
+    }
+
+    div.footer {
+        margin-top: -50px;
+    }
+}

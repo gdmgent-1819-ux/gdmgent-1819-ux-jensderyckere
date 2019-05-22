@@ -1,9 +1,8 @@
-html {
-  height: 100%;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  font-family: var(--t-body);
-  height: inherit;
-  margin: 0;
+  background-color: var(--c-lightgrey)
 }
